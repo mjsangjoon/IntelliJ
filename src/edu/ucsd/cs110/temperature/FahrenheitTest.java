@@ -23,7 +23,7 @@ public class FahrenheitTest {
         String string = temp.toString();
 
         String beginning = "" + value;
-        String ending = "F";
+        String ending = " F";
 
         //Verify the suffix of the formatted string
         assertTrue(string.startsWith(beginning));
@@ -35,7 +35,7 @@ public class FahrenheitTest {
         int endIndex = string.indexOf(ending);
 
         //(Hint: what is the length of the middle of the string?)
-        assertTrue(string.substring(0,endIndex).equals(beginning));
+        assertTrue(string.substring(0, endIndex).equals(beginning));
     }
 
     @Test
