@@ -24,6 +24,6 @@ public class Celsius extends Temperature {
     public String toString()
         {
             // TODO: Complete this method
-            return this.getValue() + " c";
+            return this.getValue() + " C";
         }
 }
