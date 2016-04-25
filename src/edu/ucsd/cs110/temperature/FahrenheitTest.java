@@ -29,10 +29,10 @@ public class FahrenheitTest {
         assertTrue(string.startsWith(beginning));
 
         //verify the prefix of the formatted string
-        asertTrue(string.endsWith(ending));
+        assertTrue(string.endsWith(ending));
 
         //Verify the middle of hte formatted string
-        int endIndes = string.indexOf(ending);
+        int endIndex = string.indexOf(ending);
 
         //(Hint: what is the length of the middle of the string?)
         assertTrue(string.substring(0,endIndex).equals(beginning));
